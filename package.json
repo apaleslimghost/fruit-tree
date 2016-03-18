@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Create a fruit of a name",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "fruit-tree": "bin.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   "homepage": "https://github.com/quarterto/fruit-tree#readme",
   "dependencies": {
     "@quarterto/promise-all-object": "^1.1.0",
+    "@quarterto/promisify": "^1.0.0",
+    "find-parent-dir": "^0.3.0",
     "fs-promise": "^0.5.0",
     "lodash.mapvalues": "^4.2.0"
   }
