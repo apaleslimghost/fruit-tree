@@ -3,7 +3,7 @@ fruit-tree
 
 This is probably only useful to you if your name is Rowan, George, Kornel or Matt.
 
-Give it some fruit names, and it creates fruit.js, fruit.ms and _fruit.scss for you (and updates modules/index.js and body-part2.scss).
+Give it some fruit names, and it creates fruit.js, fruit.ms and _fruit.scss for you (and updates body-part2.scss).
 
 Installation
 ------------
