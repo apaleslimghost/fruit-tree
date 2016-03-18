@@ -1,6 +1,6 @@
 {
   "name": "@quarterto/fruit-tree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a fruit of a name",
   "main": "index.js",
   "bin": {
