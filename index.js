@@ -12,8 +12,6 @@ module.exports = fm.define({
 	name: '${fruit}',
 	template: require('../../../templates/fruit/${fruit}.ms'),
 });`,
-	'lib/javascript/ftfruitmachine/modules/index.js': src => `${src}
-require('./${fruit}.js')`,
 	'lib/css/body-part2.scss': src => `${src}
 @import "fruit/modules/${fruit}";`
 });
